@@ -1,0 +1,43 @@
+{
+  "compilerOptions": {
+    "noImplicitReturns": true,
+    // "noUnusedLocals": true,
+    "sourceMap": true,
+    "strict": true,
+    "alwaysStrict": true,
+    "declaration": true,
+    "emitDecoratorMetadata": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "moduleResolution": "node",
+    // "noImplicitAny": true,
+    // "noImplicitThis": true,
+    // "noUnusedParameters": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
+    "isolatedModules": true,
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strictBindCallApply": true,
+    "strictFunctionTypes": true,
+    "strictNullChecks": true,
+    "strictPropertyInitialization": false,
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "module": "esnext",
+    "jsx": "react"
+  },
+  "include": ["src", "./styles.d.ts"],
+  "exclude": [
+    "*/node_modules",
+    "*/dist",
+    "*/scripts",
+    "*/.storybook",
+    "*/public",
+    "*/static"
+  ]
+}
